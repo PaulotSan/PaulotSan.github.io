@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="name" content="PJ Projet Cockpit">
+  <title>Projet Cockpit</title>
+  <link rel="stylesheet" href="css/knacss-unminified.css">
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="FaviconIcon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="shortcut" href="images/favicon.ico" type="image/x-icon">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="simulateur-de-vol-albatros-l39-c">Simulateur de vol Albatros L39-C</h1>
+<p>Ce projet de cockpit a été réalisé au sein de mon association LéoFly. Cette association technique au sein de l’ESILV initie plusieurs projets chaque année dans le thème de l’aéronautique et l’aérospatial. Avec une équipe de 8 étudiants en 2ème année, nous avons repris le projet associatif du cockpit. L’objectif étant de créer une expérience <em>immersive</em> de simulation de vol d’un avion de chasse.</p>
+<p><a href="https://dvic.devinci.fr/resource/projects/cockpitl39/" target="_blank">Présentation du projet</a></p>
+<hr/>
+<h2 id="naissance-du-projet">Naissance du projet</h2>
+<p>Ce projet de longue haleine a vu le jour en 2016 : les étudiants de LeoFly ont pour ambition de reproduire le cockpit d’un avion de chasse qui les passionne, l’Albatros L39-C. L’intérêt pour l’école est de disposer d’un projet démontrant les capacités de ses élèves physiquement exposable dans le cadre d’évènements de promotion de l’école. L’intérêt pour l’association est de disposer d’un module d’entraînement et d’initiation ludique au vol pour ses membres. Le projet a ensuite été repris par plusieurs équipes pour le faire évoluer et l’améliorer.</p>
+<figure>
+  <img src="images/cockpit_intégral.png" width="70%" alt="cockpit_intégral">
+  <figcaption>Le cockpit V2.0</figcaption>
+</figure>
+<hr/>
+<h2 id="fonctions">Fonctions</h2>
+<p>Les <strong>fonctions importantes</strong> du cockpit sont donc :</p>
+<ul>
+<li>Être <em>fonctionnel</em></li>
+<li>Proposer une expérience <em>immersive</em></li>
+<li>Être <em>fidèle</em> au vrai cockpit (d’un point de vue esthétique)</li>
+</ul>
+<p>Pour y répondre, le travail a été réparti dans deux axes : l’<strong>électronique</strong> et la <strong>mécanique</strong>.</p>
+<p>La partie <strong>électronique</strong> se focalise sur la <em>fonctionnalité</em> du simulateur. Il s’agit de faire le lien entre les différents boutons, manettes et jauges du cockpit et le logiciel de simulation de vol. En l’occurrence le logiciel qui a été choisi est <strong>DCS World</strong>.</p>
+<p>La partie <strong>mécanique</strong> se concentre à la fois sur le fidélisme du simulateur, par la <em>modélisation</em> et le <em>découpage/impression</em> de pièces ressemblantes à celles du vrai cockpit, et sur l’<em>immersivité</em> par la <em>conception</em> de pièces (manettes, palonnier, interrupteurs…) qui donnent une sensation de réel.</p>
+<hr/>
+<h2 id="avancement-du-projet">Avancement du projet</h2>
+<p>Lors de mon arrivée dans l’équipe Cockpit V3.0, nous avions déjà un prototype assez fidèle, sur lequel des étudiants avaient travaillé pendant 2 ans. L’objectif de cette année était néanmoins important :</p>
+<ul>
+<li>Refonte du système électronique de lien avec le logiciel de simulation</li>
+<li>Refonte de certaines pièces cassées ou défaillantes</li>
+<li>Amélioration de l’aspect visuel et de la fidélité du cockpit</li>
+<li>Implémentation d’un écran immersif à 300°</li>
+</ul>
+<p>Parmi ces objectifs, seul le dernier n’a pas été réalisé, et sera pris en charge par les étudiants du projet V4.0.</p>
+<h4 id="système-électronique">Système électronique</h4>
+<p>Le système électronique a été complètement refait, en utilisant des Raspberry Pi nous pu centraliser toutes les commandes du cockpit.</p>
+<h4 id="remplacement-des-pièces">Remplacement des pièces</h4>
+<p>J’ai été personnellement en charge de remplacer et réparer certaines pièces du cockpit, notamment le panneau de contrôle, et la manette contrôlant les trains d’atterrissage. La subtilité étant de les concevoir plus solides, tout en conservant leur immersivité. Le palonnier, promettant une expérience bien plus immersive pour les pilotes les plus aguerris, a été un véritable défi pour les membres de notre équipe. On notera aussi le système de déplacement du siège qui a été mis en place pour plus de confort.</p>
+<h4 id="aspect-visuel">Aspect visuel</h4>
+<p>Certaines pièces ont été refaites dans le but de rendre le cockpit plus fidèle, les plaques extérieures ont été refaites et repeintes, pour une esthétique plus travaillée et réaliste.</p>
+</body>
+<footer>
+  <hr>
+  <code>Copyright (c) 2020 Paul Jouët</code>
+</footer>
+</html>
