@@ -4,11 +4,15 @@ a:hover {
 }
 
 body {
-  margin: auto 25%;
   background-color: white;
   color: #3F3844;
   font-family: "Montserrat", system-ui, Helvetica, Arial, sans-serif;
   text-align: left;
+}
+
+main{
+    margin: auto 25%;
+    padding-bottom: 3rem;
 }
 
 footer{
@@ -17,6 +21,7 @@ footer{
   padding-bottom: 1rem;
   background-color: #3F3844;
   color: white;
+  text-align: center;
 }
 
 strong{
@@ -50,12 +55,18 @@ th{
   color:#3F3844;
 }
 
-ul{
-  margin-left: 0;
+li{
+  list-style-type: circle;
 }
 
 table{
   text-align: center;
+}
+
+hr{
+  border: 1px solid lightgray;
+  border-radius: 1px;
+  margin-top:2rem;
 }
 
 #profile_pic{
